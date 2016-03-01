@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.4" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -108,6 +108,7 @@
 <vertex x="-2.5" y="2.2"/>
 <vertex x="-2.2" y="2.5"/>
 </polygon>
+<smd name="GND" x="0" y="0" dx="3.6" dy="3.6" layer="1"/>
 </package>
 <package name="32-TQFP">
 <wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.127" layer="23"/>
@@ -201,6 +202,7 @@
 <pin name="PA30" x="17.78" y="20.32" visible="pin" length="middle" rot="R180"/>
 <pin name="PA02" x="-17.78" y="17.78" visible="pin" length="middle"/>
 <pin name="PA31" x="17.78" y="22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="GND@3" x="17.78" y="-20.32" visible="pin" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -214,6 +216,7 @@
 <connects>
 <connect gate="G$1" pin="GND@1" pad="10"/>
 <connect gate="G$1" pin="GND@2" pad="28"/>
+<connect gate="G$1" pin="GND@3" pad="GND"/>
 <connect gate="G$1" pin="PA00" pad="1"/>
 <connect gate="G$1" pin="PA01" pad="2"/>
 <connect gate="G$1" pin="PA02" pad="3"/>
