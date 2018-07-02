@@ -24,6 +24,7 @@
 _build/
 *.swp
 *~.nib
+*.lck
 build/
 *.pbxuser
 *.perspective
