@@ -87,12 +87,12 @@
 <smd name="11" x="1.980946875" y="0.6" dx="0.849884375" dy="0.199896875" layer="1"/>
 <smd name="12" x="1.980946875" y="1" dx="0.849884375" dy="0.199896875" layer="1"/>
 <smd name="13" x="0" y="0" dx="2.45" dy="1.95" layer="1"/>
-<pad name="V" x="-0.7874" y="-0.4064" drill="0.254" diameter="0.508" stop="no" thermals="no"/>
-<pad name="V_1" x="-0.7874" y="0.4064" drill="0.254" diameter="0.508" stop="no" thermals="no"/>
-<pad name="V_2" x="0" y="-0.4064" drill="0.254" diameter="0.508" stop="no" thermals="no"/>
-<pad name="V_3" x="0" y="0.4064" drill="0.254" diameter="0.508" stop="no" thermals="no"/>
-<pad name="V_4" x="0.7874" y="-0.4064" drill="0.254" diameter="0.508" stop="no" thermals="no"/>
-<pad name="V_5" x="0.7874" y="0.4064" drill="0.254" diameter="0.508" stop="no" thermals="no"/>
+<pad name="V" x="-0.7874" y="-0.4064" drill="0.3048" diameter="0.508" stop="no" thermals="no"/>
+<pad name="V_1" x="-0.7874" y="0.4064" drill="0.3048" diameter="0.508" stop="no" thermals="no"/>
+<pad name="V_2" x="0" y="-0.4064" drill="0.3048" diameter="0.508" stop="no" thermals="no"/>
+<pad name="V_3" x="0" y="0.4064" drill="0.3048" diameter="0.508" stop="no" thermals="no"/>
+<pad name="V_4" x="0.7874" y="-0.4064" drill="0.3048" diameter="0.508" stop="no" thermals="no"/>
+<pad name="V_5" x="0.7874" y="0.4064" drill="0.3048" diameter="0.508" stop="no" thermals="no"/>
 <wire x1="-2.0828" y1="0.8636" x2="-2.0828" y2="1.1176" width="0.1524" layer="51"/>
 <wire x1="-2.0828" y1="1.1176" x2="-2.0828" y2="0.8636" width="0.1524" layer="51"/>
 <wire x1="-2.0828" y1="0.4826" x2="-2.0828" y2="0.7366" width="0.1524" layer="51"/>
