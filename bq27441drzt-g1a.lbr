@@ -36,8 +36,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -373,30 +373,6 @@
 <vertex x="1.486003125" y="0.830053125"/>
 <vertex x="2.4758875" y="0.830053125"/>
 <vertex x="2.4758875" y="1.16995"/>
-</polygon>
-<polygon width="0.1524" layer="29">
-<vertex x="0.975" y="0.975"/>
-<vertex x="0.975" y="1.65"/>
-<vertex x="1.225" y="1.65"/>
-<vertex x="1.225" y="0.975"/>
-</polygon>
-<polygon width="0.1524" layer="29">
-<vertex x="-0.975" y="0.975"/>
-<vertex x="-0.975" y="1.65"/>
-<vertex x="-1.225" y="1.65"/>
-<vertex x="-1.225" y="0.975"/>
-</polygon>
-<polygon width="0.1524" layer="29">
-<vertex x="-0.975" y="-0.975"/>
-<vertex x="-0.975" y="-1.65"/>
-<vertex x="-1.225" y="-1.65"/>
-<vertex x="-1.225" y="-0.975"/>
-</polygon>
-<polygon width="0.1524" layer="29">
-<vertex x="0.975" y="-0.975"/>
-<vertex x="0.975" y="-1.65"/>
-<vertex x="1.225" y="-1.65"/>
-<vertex x="1.225" y="-0.975"/>
 </polygon>
 <polygon width="0.0254" layer="29">
 <vertex x="-1.2885" y="1.0385"/>
