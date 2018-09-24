@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -38,7 +38,7 @@
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -53,7 +53,7 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
@@ -97,7 +97,7 @@
 <vertex x="-3.92" y="3.63" curve="-90"/>
 <vertex x="-4.32" y="3.23" curve="-90"/>
 </polygon>
-<polygon width="0.2" layer="1" pour="cutout">
+<polygon width="0.2" layer="29">
 <vertex x="3.92" y="3.63"/>
 <vertex x="3.92" y="4.6"/>
 <vertex x="3.92" y="4.73" curve="-90"/>
@@ -160,6 +160,77 @@
 <vertex x="4.12" y="-0.4"/>
 </polygon>
 <wire x1="-4.32" y1="-2.6" x2="4.32" y2="-2.6" width="0.2" layer="48"/>
+<polygon width="0.2" layer="29">
+<vertex x="-4.72" y="3.63"/>
+<vertex x="-4.72" y="4.6"/>
+<vertex x="-4.72" y="4.73" curve="-90"/>
+<vertex x="-4.32" y="5.13" curve="-90"/>
+<vertex x="-3.92" y="4.73"/>
+<vertex x="-3.92" y="3.63" curve="-90"/>
+<vertex x="-4.32" y="3.23" curve="-90"/>
+</polygon>
+<polygon width="0.2" layer="1" pour="cutout">
+<vertex x="3.916" y="3.63"/>
+<vertex x="3.916" y="4.6"/>
+<vertex x="3.916" y="4.73" curve="-90"/>
+<vertex x="4.316" y="5.13" curve="-90"/>
+<vertex x="4.716" y="4.73"/>
+<vertex x="4.716" y="3.63" curve="-90"/>
+<vertex x="4.316" y="3.23" curve="-90"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="-4.72" y="-0.4"/>
+<vertex x="-4.72" y="0.3"/>
+<vertex x="-4.72" y="0.4" curve="-90"/>
+<vertex x="-4.32" y="0.8" curve="-90"/>
+<vertex x="-3.92" y="0.4"/>
+<vertex x="-3.92" y="-0.4" curve="-90"/>
+<vertex x="-4.32" y="-0.8" curve="-90"/>
+</polygon>
+<polygon width="0.2" layer="29">
+<vertex x="3.916" y="-0.4"/>
+<vertex x="3.916" y="0.3"/>
+<vertex x="3.916" y="0.4" curve="-90"/>
+<vertex x="4.316" y="0.8" curve="-90"/>
+<vertex x="4.716" y="0.4"/>
+<vertex x="4.716" y="-0.4" curve="-90"/>
+<vertex x="4.316" y="-0.8" curve="-90"/>
+</polygon>
+<polygon width="0.2" layer="31">
+<vertex x="-4.72" y="3.63"/>
+<vertex x="-4.72" y="4.6"/>
+<vertex x="-4.72" y="4.73" curve="-90"/>
+<vertex x="-4.32" y="5.13" curve="-90"/>
+<vertex x="-3.92" y="4.73"/>
+<vertex x="-3.92" y="3.63" curve="-90"/>
+<vertex x="-4.32" y="3.23" curve="-90"/>
+</polygon>
+<polygon width="0.2" layer="31">
+<vertex x="-4.72" y="-0.4"/>
+<vertex x="-4.72" y="0.3"/>
+<vertex x="-4.72" y="0.4" curve="-90"/>
+<vertex x="-4.32" y="0.8" curve="-90"/>
+<vertex x="-3.92" y="0.4"/>
+<vertex x="-3.92" y="-0.4" curve="-90"/>
+<vertex x="-4.32" y="-0.8" curve="-90"/>
+</polygon>
+<polygon width="0.2" layer="31">
+<vertex x="3.92" y="-0.4"/>
+<vertex x="3.92" y="0.4" curve="-90"/>
+<vertex x="4.32" y="0.8" curve="-90"/>
+<vertex x="4.72" y="0.4"/>
+<vertex x="4.72" y="-0.4" curve="-90"/>
+<vertex x="4.32" y="-0.8" curve="-90"/>
+</polygon>
+<polygon width="0.2" layer="31">
+<vertex x="3.916" y="3.63"/>
+<vertex x="3.916" y="4.6"/>
+<vertex x="3.916" y="4.73" curve="-90"/>
+<vertex x="4.316" y="5.13" curve="-90"/>
+<vertex x="4.716" y="4.73"/>
+<vertex x="4.716" y="3.63" curve="-90"/>
+<vertex x="4.316" y="3.23" curve="-90"/>
+</polygon>
 </package>
 </packages>
 <symbols>
